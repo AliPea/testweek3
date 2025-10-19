@@ -1,0 +1,22 @@
+{
+  "name": "week4-test",
+  "version": "1.0.0",
+  "description": "some description",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliPea/testweek3.git"
+  },
+  "author": "Alicia Pearse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AliPea/testweek3/issues"
+  },
+  "homepage": "https://github.com/AliPea/testweek3#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

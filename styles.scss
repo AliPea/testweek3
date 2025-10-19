@@ -1,0 +1,23 @@
+$primary-color: #009756;
+
+@mixin box-shadow($x, $y, $g) {
+    -webkit-box-shadow: $x $y $g;
+    box-shadow: $x $y $g;
+  }
+
+  .card {
+    @include box-shadow(10px, 10px,  $primary-color);
+  }
+// New file Var map
+
+$colors: (
+  primary #0026ff83,
+  secondary: red,
+  accent: green
+);
+
+@each $x, $y in $colors {
+  .text-#{$x} {
+    color: $y;
+  }
+}
